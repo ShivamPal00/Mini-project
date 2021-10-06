@@ -1,10 +1,22 @@
-.navbar {
-    align-items: flex-start;
-    display: flex;
-    height: 104px;
-    left: 0;
-    min-width: 1920px;
-    position: fixed;
-    top: -17px;
-    color: rgb(190, 25, 25);
-  }
+.Navbar{
+color: aliceblue;    
+background-color:rgb(16, 43, 57);
+font-family: "Times New Roman";
+font-size: 20px;
+font-weight: 6000;
+height: 69.5px;
+}
+.Carousel{
+    height: 600px;
+}
+.Flex{
+    display:flex;  
+}
+.Cards{
+    height: 370px;
+    width: 410px;
+    margin: 50px;   
+}
+.Footer{
+    background-color: rgba(0, 0, 0, 0.05);
+}

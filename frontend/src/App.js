@@ -1,15 +1,21 @@
-// import logo from './logo.svg';
 import './App.css';
+import Cards from './MyComp/Cards';
+import Carousel from './MyComp/Carousel';
+import Footer from './MyComp/Footer';
+import Navbar from './MyComp/Navbar';
 
-// import Navbar from './MyComp/Navbar';
-import Test from './MyComp/Test';
+
+
+
 
 function App() {
   return (
-      <>
-      {/* <Navbar/> */}
-      <Test/>
-      </>
+    <>
+    <Navbar/>
+    <Carousel/><br/>
+    <Cards/><br/>
+    <Footer/>
+    </>
   );
 }
 
