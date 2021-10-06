@@ -1,26 +1,36 @@
 import React from 'react';
 import './style.css';
 
-function Navbar() {
+export default function Navbar() {
     return (
-        
-    <div className="navbar">
-      <div className="overlap-group2calibri-bold-white-22px">
-        <div className="base"></div>
-        <div className="new-events">
-          New Events
+        <nav className="navbar navbar-expand-lg navbar-dark Navbar">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/">Navbar</a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/">New Events</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" href="/">Event Daires</a>
+              </li>
+            </ul>
+            <form className="d-flex">
+              <input className="form-control me-5" type="search" placeholder="Search" aria-label="Search"/>
+           
+            </form>
+            <ul className="navbar-nav me-5 mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/">Contact Us</a>
+              </li>
+              
+            </ul>
+
+          </div>
         </div>
-        <div className="event-dairies">
-          Event Dairies
-        </div>
-        <div className="contact-us">
-          Contact Us
-        </div>
-        <div className="group-2"></div>
-      </div>
-    
-        </div>
+      </nav>
     )
 }
-
-export default Navbar
