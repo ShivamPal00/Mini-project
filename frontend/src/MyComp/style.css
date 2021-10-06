@@ -1,0 +1,10 @@
+.navbar {
+    align-items: flex-start;
+    display: flex;
+    height: 104px;
+    left: 0;
+    min-width: 1920px;
+    position: fixed;
+    top: -17px;
+    color: rgb(190, 25, 25);
+  }
