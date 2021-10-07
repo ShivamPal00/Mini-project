@@ -1,8 +1,9 @@
 import './App.css';
-import Cards from './MyComp/Cards';
-import Carousel from './MyComp/Carousel';
-import Footer from './MyComp/Footer';
-import Navbar from './MyComp/Navbar';
+import Events from './MyComp/Events';
+import Form from './MyComp/Form';
+import Homepage from './MyComp/Homepage/Homepage';
+import Register from './MyComp/Register';
+
 
 
 
@@ -11,11 +12,13 @@ import Navbar from './MyComp/Navbar';
 function App() {
   return (
     <>
-    <Navbar/>
-    <Carousel/><br/>
-    <Cards/><br/>
-    <Footer/>
+      
+      {/* <Homepage/> */}
+      {/* <Events/> */}
+      {/* <Register/> */}
+      <Form/>
     </>
+  
   );
 }
 
