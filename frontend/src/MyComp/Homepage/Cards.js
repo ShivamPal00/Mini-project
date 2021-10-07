@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css';
+import './homepage.css';
 // import style from 'styled-components';
 
 export default function Cards() {
