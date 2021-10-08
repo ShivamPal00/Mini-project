@@ -1,8 +1,10 @@
 import React from 'react';
+import Navbar from './Homepage/Navbar';
 import './style.css';
 export default function Form() {
     return (
         <div>
+            <Navbar/>
             <div className='container'>
                 <h3>REGISTRATION FORM</h3>
                 <div className='form-first-div'>
