@@ -10,16 +10,16 @@ export default function Cards() {
             <div className="Flex">
 
                 <div className="card Cards" >
-                    <img src="https://m.media-amazon.com/images/I/511kcZbYtJL._SY450_.jpg" className="card-img-top" alt="None" />
-                    <Link to="/events">ZEAL</Link>
+                    <img src={process.env.PUBLIC_URL + '/img/zeal.png'} alt="None" />
+                    <Link to="/zeal">ZEAL</Link>
                 </div>
                 <div className="card Cards">
-                    <img src="https://m.media-amazon.com/images/I/511kcZbYtJL._SY450_.jpg" className="card-img-top" alt="None" />
-                    <Link to="/events">ZEAL</Link>
+                    <img src={process.env.PUBLIC_URL + '/img/avahan.png'} alt="None" />
+                    <Link to="/avahan">AVAHAN</Link>
                 </div>
                 <div className="card Cards">
-                    <img src="https://m.media-amazon.com/images/I/511kcZbYtJL._SY450_.jpg" className="card-img-top" alt="None" />
-                    <Link to="/events">ZEAL</Link>
+                    <img src={process.env.PUBLIC_URL + '/img/hackathon.png'} alt="None" />
+                    <Link to="/hackathon">HACKATHON</Link>
                 </div>
             </div>
             <br />
@@ -28,16 +28,16 @@ export default function Cards() {
                 <span align='center'>EVENT DAIRIES</span>
                 <div className="Flex">
                     <div className="card Cards">
-                        <img src="https://m.media-amazon.com/images/I/511kcZbYtJL._SY450_.jpg" className="card-img-top" alt="None" />
-                        <span>TEXT</span>
+                        <img src={process.env.PUBLIC_URL + '/img/zeal.png'} alt="None" />
+                        <Link to="/zdairies">Zeal-Dairies</Link>
                     </div>
                     <div className="card Cards">
-                        <img src="https://m.media-amazon.com/images/I/511kcZbYtJL._SY450_.jpg" className="card-img-top" alt="None" />
-                        <span>TEXT</span>
+                    <img src={process.env.PUBLIC_URL + '/img/avahan.png'} alt="None" />
+                        <Link to="/adairies">Avahan-Dairies</Link>
                     </div>
                     <div className="card Cards">
-                        <img src="https://m.media-amazon.com/images/I/511kcZbYtJL._SY450_.jpg" className="card-img-top" alt="None" />
-                        <span>TEXT</span>
+                        <img src={process.env.PUBLIC_URL + '/img/hackathon.png'} className="card-img-top" alt="None" />
+                        <Link to="/hdairies">Hackathon-Dairies</Link>
                     </div>
                 </div>
             </div>

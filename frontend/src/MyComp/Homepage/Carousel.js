@@ -1,5 +1,6 @@
 import React from 'react';
 import './homepage.css';
+// import logo from './Images/logo.png';
 
 export default function Carousel() {
     return (
@@ -12,21 +13,21 @@ export default function Carousel() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active ">
-                        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" className="d-block w-100 Carousel" alt="None" />
+                        <img src={process.env.PUBLIC_URL + '/img/carousel-1.png'}  className="d-block w-100 Carousel" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                     <div className="carousel-item ">
-                        <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg" className="d-block w-100 Carousel" alt="None" />
+                        <img src={process.env.PUBLIC_URL + '/img/carousel-2.png'} className="d-block w-100 Carousel" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg" className="d-block w-100 Carousel" alt="None" />
+                        <img src={process.env.PUBLIC_URL + '/img/carousel-3.png'} className="d-block w-100 Carousel" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>

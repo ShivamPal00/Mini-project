@@ -10,6 +10,7 @@ export default function Homepage() {
             <Navbar/>
             <Carousel/>
             <Cards/>
+            <br />
             <Footer/>
         </div>
     )

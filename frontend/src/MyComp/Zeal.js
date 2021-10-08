@@ -6,14 +6,14 @@ import Navbar from './Homepage/Navbar';
 import { Link } from 'react-router-dom';
 
 
-export default function Events() {
+export default function Zeal() {
     return (
         <div>
             <Navbar/>
         
         <div className='Events '>
             <div className="Flex my-5">
-                <img src="https://media.istockphoto.com/photos/meenakshi-hindu-temple-in-madurai-tamil-nadu-south-india-picture-id490736905?k=20&m=490736905&s=612x612&w=0&h=p0AkEjfTfQC6sfSnP1mEU-0BpkYMBYQn_fwcXHiq6kI=" class="img-fluid" alt="None" />
+                <img src={process.env.PUBLIC_URL + '/img/zeal.png'}  class="img-fluid subcards " alt="None" />
 
                 <div className="mx-5 card ">
                     <h2>ZEAL 2021
@@ -29,10 +29,12 @@ export default function Events() {
                     </div>
                 </div>
             </div>
+            <div>
+            <h2>SUB-EVENTS</h2>
             <div className='Flex Events2 my-4'>
 
                 <div >
-                    <h2>SUB-EVENTS</h2>
+                    
                     <b>DANCE</b>
                     <ul>
                         <li>GROUP DANCE</li>
@@ -45,10 +47,11 @@ export default function Events() {
                     {/* <button className='btn btn-primary'>Register</button> */}
                     </div>
             </div>
+           
             <div className='Flex Events2 my-4'>
 
                 <div >
-                    <h2>SUB-EVENTS</h2>
+                    
                     <b>DANCE</b>
                     <ul>
                         <li>GROUP DANCE</li>
@@ -64,7 +67,7 @@ export default function Events() {
             <div className='Flex Events2 my-4 '>
 
                 <div >
-                    <h2>SUB-EVENTS</h2>
+                   
                     <b>DANCE</b>
                     <ul>
                         <li>GROUP DANCE</li>
@@ -80,7 +83,7 @@ export default function Events() {
             <div className='Flex Events2 my-4'>
 
                 <div >
-                    <h2>SUB-EVENTS</h2>
+                    
                     <b>DANCE</b>
                     <ul>
                         <li>GROUP DANCE</li>
@@ -102,10 +105,10 @@ export default function Events() {
                 <img src="https://www.whatsappimages.in/wp-content/uploads/2021/01/Boys-Feeling-Very-Sad-Images-Pics-Downlaod.jpg" class="img-fluid my-3 Result" alt="None"></img>
             </div>
             </div>
-            <div>
-                <Footer/>
-            </div>
+           
             
+        </div>
+        <Footer/>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import './App.css';
-import Events from './MyComp/Events';
+
 import Form from './MyComp/Form';
 import Homepage from './MyComp/Homepage/Homepage';
 import Register from './MyComp/Register';
@@ -10,6 +10,12 @@ import {
   Link
 } from "react-router-dom";
 import Navbar from './MyComp/Homepage/Navbar';
+import Zdairies from './MyComp/Zdairies';
+import Zeal from './MyComp/Zeal';
+import Avahan from './MyComp/Avahan';
+import Hackathon from './MyComp/Hackathon';
+import Adairies from './MyComp/Adairies';
+import Hdairies from './MyComp/Hdairies';
 
 
 
@@ -21,19 +27,21 @@ function App() {
     <>
       <Router>
       
-      {/* <Navbar/> */}
-      {/* <Homepage/> */}
-       {/* <Events/> */}
-      {/* <Register/> */}
-      {/* <Form/> */}
+     
       <Switch>
 
           
           <Route exact path="/">
           <Homepage/>
           </Route>
-          <Route path="/events">
-            <Events />
+          <Route path="/zeal">
+            <Zeal/>
+          </Route>
+          <Route path="/avahan">
+            <Avahan/>
+          </Route>
+          <Route path="/hackathon">
+            <Hackathon/>
           </Route>
           <Route  path="/register">
             <Register />
@@ -41,12 +49,20 @@ function App() {
           <Route  path="/form">
             <Form/>
           </Route>
+          <Route  path="/zdairies">
+          <Zdairies/>
+          </Route>
+          <Route  path="/adairies">
+          <Adairies/>
+          </Route>
+          <Route  path="/hdairies">
+          <Hdairies/>
+          </Route>
         </Switch>
+       
         </Router>
-
-      {/* <Events/> */}
-      {/* <Register/> */}
-      {/* <Form/> */}
+        
+    
     </>
   
   );

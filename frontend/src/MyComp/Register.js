@@ -9,7 +9,7 @@ export default function Register() {
             <Navbar />
             <div >
                 <div className="Flex my-5 Events Register-first-div" >
-                    <img src="https://media.istockphoto.com/photos/meenakshi-hindu-temple-in-madurai-tamil-nadu-south-india-picture-id490736905?k=20&m=490736905&s=612x612&w=0&h=p0AkEjfTfQC6sfSnP1mEU-0BpkYMBYQn_fwcXHiq6kI=" class="img-fluid" alt="None" />
+                    <img src={process.env.PUBLIC_URL + '/img/dance.png'}class="img-fluid register-cards" alt="None" />
 
                     <div className='mx-5 Register'  >
 
