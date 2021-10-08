@@ -3,6 +3,7 @@ import './style.css';
 
 import Footer from './Homepage/Footer';
 import Navbar from './Homepage/Navbar';
+import { Link } from 'react-router-dom';
 
 
 export default function Events() {
@@ -39,7 +40,10 @@ export default function Events() {
                         <li>SOLO DANCE</li>
                     </ul>
                 </div>
-                <div className=' Button-margin my-5'><button className='btn btn-primary'>Register</button></div>
+                <div className=' Button-margin my-5'>
+                <Link to="/register">REGISTER</Link>
+                    {/* <button className='btn btn-primary'>Register</button> */}
+                    </div>
             </div>
             <div className='Flex Events2 my-4'>
 
@@ -52,7 +56,10 @@ export default function Events() {
                         <li>SOLO DANCE</li>
                     </ul>
                 </div>
-                <div className=' Button-margin my-5'><button className='btn btn-primary'>Register</button></div>
+                <div className=' Button-margin my-5'>
+                <Link to="/register">REGISTER</Link>
+                    {/* <button className='btn btn-primary'>Register</button> */}
+                    </div>
             </div>
             <div className='Flex Events2 my-4 '>
 
@@ -65,7 +72,10 @@ export default function Events() {
                         <li>SOLO DANCE</li>
                     </ul>
                 </div>
-                <div className=' Button-margin my-5'><button className='btn btn-primary'>Register</button></div>
+                <div className=' Button-margin my-5'>
+                <Link to="/register">REGISTER</Link>
+                    {/* <button className='btn btn-primary'>Register</button> */}
+                    </div>
             </div>
             <div className='Flex Events2 my-4'>
 
@@ -78,14 +88,17 @@ export default function Events() {
                         <li>SOLO DANCE</li>
                     </ul>
                 </div>
-                <div className=' Button-margin my-5'><button className='btn btn-primary'>Register</button></div>
+                <div className=' Button-margin my-5'>
+                <Link to="/register">REGISTER</Link>
+                    {/* <button className='btn btn-primary'>Register</button> */}
+                    </div>
             </div>
             <div className='Events2 my-5'>
                 <h2 className="Center ">SCHEDULE</h2>
                 <img src="https://www.whatsappimages.in/wp-content/uploads/2021/01/Boys-Feeling-Very-Sad-Images-Pics-Downlaod.jpg" class="img-fluid my-3 Result" alt="None"></img>
             </div>
             <div className='Events2 my-5'>
-                <h2 className="Center ">SCHEDULE</h2>
+                <h2 className="Center ">RESULT</h2>
                 <img src="https://www.whatsappimages.in/wp-content/uploads/2021/01/Boys-Feeling-Very-Sad-Images-Pics-Downlaod.jpg" class="img-fluid my-3 Result" alt="None"></img>
             </div>
             </div>

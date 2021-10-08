@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from './Homepage/Footer'
 import Navbar from './Homepage/Navbar'
 
@@ -22,7 +23,8 @@ export default function Register() {
                                     consectetur adipiscing elit donec</span>
                                 <div className='my-3'>
                                     <h3>ENTRY FEE Rs.100</h3>
-                                    <button className='btn btn-primary my-3'>Register</button>
+                                    <Link to="/form">REGISTER</Link>
+                                    {/* <button className='btn btn-primary my-3'>Register</button> */}
                                 </div>
                             </div>
                         </div>
