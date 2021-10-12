@@ -1,6 +1,6 @@
 .Navbar{
 color: aliceblue;    
-background-color:rgb(16, 43, 57);
+background-color:#17223B;
 font-family: "Times New Roman";
 font-size: 20px;
 font-weight: 6000;
@@ -21,8 +21,8 @@ height: 69.5px;
     background-color: rgba(0, 0, 0, 0.05);
 }
 .logo{
-    height: 25px;
-    width: 25px;
+    height: 100px;
+    width: 150px;
 }
 .Events{
     margin-left: 230px ;
@@ -92,7 +92,8 @@ padding: 30px ;
 
 .Register-Cards{
     height: 370px;
-    width: 355px;
+    width: 500px;
+    margin: 20px;
     /* margin: 50px;    */
 }
 .Register-first-div{
@@ -102,6 +103,7 @@ padding: 30px ;
     width: 1060px;
     /* margin-right: 500; */
 }
+
 .form-first-div{
     border-style: solid;
     border-width: 1px;
@@ -124,4 +126,49 @@ padding: 30px ;
 .register-cards{
     height:444px;
     width: 664.34px;
+    margin-left: 50px;
+}
+.events-bg{
+        background: linear-gradient(
+180.1deg, #e5d4cd -99.08%, #ffa384 187.55%);
+}
+
+.dairies{
+    width: 1530px;
+}
+.color-1{
+    background-color:#17223B;
+}
+.color-2{
+    background-color: #263859;
+}
+.color-3{
+        background-color: #6B778D;
+}
+
+.color-4{
+    background-color: #FF6768;
+    
+}
+.events-a3bg{
+    background-color:transparent;
+}
+
+.form{
+  margin-left: 250px;  
+  margin-bottom: 250px;  
+  margin-right: 10px;  
+  margin-top: 50px;  
+  padding:60px;
+  align-content: center;
+}
+.border-radius{
+    border-radius: 30px;
+}
+.logo-cards{
+    width: 430px;
+    height: 355px;;
+}
+.sr{
+    padding: 50px;
 }
