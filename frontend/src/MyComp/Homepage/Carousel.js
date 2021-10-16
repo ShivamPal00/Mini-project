@@ -1,5 +1,5 @@
 import React from 'react';
-import './homepage.css';
+import '../../App.css';
 // import logo from './Images/logo.png';
 
 export default function Carousel() {
@@ -12,22 +12,22 @@ export default function Carousel() {
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div className="carousel-inner">
-                    <div className="carousel-item active ">
-                        <img src={process.env.PUBLIC_URL + '/img/carousel-1.png'}  className="d-block w-100 Carousel" alt="None" />
+                    <div className="carousel-item active">
+                        <img src={process.env.PUBLIC_URL + '/img/carousel-1.png'} className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
                         </div>
                     </div>
                     <div className="carousel-item ">
-                        <img src={process.env.PUBLIC_URL + '/img/carousel-2.png'} className="d-block w-100 Carousel" alt="None" />
+                        <img src={process.env.PUBLIC_URL + '/img/carousel-2.png'} className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={process.env.PUBLIC_URL + '/img/carousel-3.png'} className="d-block w-100 Carousel" alt="None" />
+                        <img src={process.env.PUBLIC_URL + '/img/carousel-3.png'} className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>

@@ -1,13 +1,20 @@
-import React from 'react'
+
+
 import Cards from './Cards'
 import Carousel from './Carousel'
 import Footer from './Footer'
 import Navbar from './Navbar'
+import '../../App.css';
 
 export default function Homepage() {
+   
+    
+    
+    
+     
     return (
         <div>
-            <Navbar/>
+            <Navbar />
             <Carousel/>
             <Cards/>
             

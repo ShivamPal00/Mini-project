@@ -1,50 +1,51 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './homepage.css';
-// import style from 'styled-components';
+import '../../App.css';
+
 
 export default function Cards() {
     return (
-        <div id="events" >
-            <div>
-                <div className="color-4 Center">
-                    <h2 align='center' className="text-light " > EVENTS</h2>
-                    <div className="Flex ">
+        <div className=" " >
+            
+                <div className="color-4 text-center    p-5 "id="card-events">
+                    <h2  className="text-light  " > EVENTS</h2>
+                    <div className="  d-flex justify-content-center  ">
 
-                        <div className=" Cards   " >
-                            <img  src={process.env.PUBLIC_URL + '/img/zeal.png'} alt="None" />
-                            <Link className="zeal-button " to="/zeal">  ZEAL</Link>
-                        </div>
-                        <div className="Cards  " >
-                            <img src={process.env.PUBLIC_URL + '/img/avahan.png'} alt="None" />
-                            <Link className="zeal-button " to="/avahan">AVAHAN</Link>
-                        </div>
-                        <div className=" Cards  " >
-                            <img  src={process.env.PUBLIC_URL + '/img/hackathon.png'} alt="None" />
-                            <Link className="zeal-button " to="/hackathon">HACKATHON</Link>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="events2" className="dairies color-2  " >
-                    <h2 align='center ' className="text-light Center">EVENT DAIRIES</h2>
-                    <div className="Flex  ">
-                        <div className="  Cards  ">
+                        <div className=" Cards  mx-4"  >
                             <img src={process.env.PUBLIC_URL + '/img/zeal.png'} alt="None" />
-                            <Link className="dairies-button " to="/zdairies">ZEAL DAIRIES </Link>
+                            <Link className="color-2-button " to="/zeal">  ZEAL</Link>
                         </div>
-                        <div className="  Cards ">
+                        <div className="Cards  mx-4 " >
                             <img src={process.env.PUBLIC_URL + '/img/avahan.png'} alt="None" />
-                            <Link className="dairies-button" to="/adairies">AVAHAN DAIRIES</Link>
+                            <Link className="color-2-button " to="/avahan">AVAHAN</Link>
                         </div>
-                        <div className="  Cards ">
-                            <img src={process.env.PUBLIC_URL + '/img/hackathon.png'} className="card-img-top" alt="None" />
-
-                            <Link className="dairies-button text-center" to="/hdairies">HACKATHON DAIRIES</Link>
+                        <div className=" Cards  mx-4 " >
+                            <img src={process.env.PUBLIC_URL + '/img/hackathon.png'} alt="None" />
+                            <Link className="color-2-button " to="/hackathon">HACKATHON</Link>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div className="color-2  text-center   p-5 "id="card-diaries">
+                    <h2  className="text-light  " > DIARIES</h2>
+                    <div className="  d-flex justify-content-center  " >
+
+                        <div className=" Cards mx-4  " >
+                            <img src={process.env.PUBLIC_URL + '/img/zeal.png'} alt="None" />
+                            <Link className="color-4-button " to="/zdiaries">  ZEAL DIARIES</Link>
+                        </div>
+                        <div className="Cards mx-4 " >
+                            <img src={process.env.PUBLIC_URL + '/img/avahan.png'} alt="None" />
+                            <Link className="color-4-button " to="/adiaries">AVAHAN DIARIES</Link>
+                        </div>
+                        <div className=" Cards mx-4  " >
+                            <img src={process.env.PUBLIC_URL + '/img/hackathon.png'} alt="None" />
+                            <Link className="color-4-button " to="/hdiaries">HACKATHON-DIARIES</Link>
+                        </div>
+                    </div>
+                </div>
+           
+           
+               
         </div>
     )
 }

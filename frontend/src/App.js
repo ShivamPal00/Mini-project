@@ -7,15 +7,15 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
-import Navbar from './MyComp/Homepage/Navbar';
-import Zdairies from './MyComp/Zdairies';
+
+import Zdairies from './MyComp/Zdiaries';
 import Zeal from './MyComp/Zeal';
 import Avahan from './MyComp/Avahan';
 import Hackathon from './MyComp/Hackathon';
-import Adairies from './MyComp/Adairies';
-import Hdairies from './MyComp/Hdairies';
+import Adairies from './MyComp/Adiaries';
+import Hdairies from './MyComp/Hdiaries';
 
 
 
@@ -49,13 +49,13 @@ function App() {
           <Route  path="/form">
             <Form/>
           </Route>
-          <Route  path="/zdairies">
+          <Route  path="/zdiaries">
           <Zdairies/>
           </Route>
-          <Route  path="/adairies">
+          <Route  path="/adiaries">
           <Adairies/>
           </Route>
-          <Route  path="/hdairies">
+          <Route  path="/hdiaries">
           <Hdairies/>
           </Route>
         </Switch>
