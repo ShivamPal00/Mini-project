@@ -6,10 +6,10 @@ import '../App.css';
 
 export default function Register() {
     return (
-        <div className="color-2 text-center text-light">
+        <div className="color-2 text-center text-light ">
             <Navbar />
-            <div  className='container'>
-                <div className="d-flex justify-content-center  my-5  "  >
+            <div  className='container p-5 '>
+                <div className="d-flex justify-content-center p-5   "  >
                    <img className="border-radius "src={process.env.PUBLIC_URL + '/img/dance.png'} alt="None" />
 
                  

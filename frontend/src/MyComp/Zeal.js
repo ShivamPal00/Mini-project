@@ -12,11 +12,13 @@ import Result from './Result';
 
 export default function Zeal() {
     return (
+        <>
+         <Navbar />
         <div className="color-2 ">
-            <Navbar />
+           
 
-            <div className=' container ' >
-                <div className=" d-flex my-5  justify-content-center   " >
+            <div className=' container p-5 ' >
+                <div className=" d-flex  justify-content-center  p-5 " >
                     <img src={process.env.PUBLIC_URL + '/img/zeal.png'} className="img-fluid event-image " alt="None" />
 
                     <LogoCard eventname="" instaid="" fbid="" twitterid="" />
@@ -41,5 +43,6 @@ export default function Zeal() {
             </div>
             <Footer />
         </div>
+        </>
     )
 }
