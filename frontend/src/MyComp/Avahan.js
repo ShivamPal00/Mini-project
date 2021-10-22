@@ -12,11 +12,11 @@ import Result from './Result';
 
 export default function Avahan() {
     return (
-        <div className="color-2 ">
+        <div className="color-2  ">
         <Navbar />
 
-        <div className=' container ' >
-            <div className=" d-flex my-5  justify-content-center   " >
+        <div className=' container  p-5' >
+            <div className=" d-flex p-5  justify-content-center   " >
                 <img src={process.env.PUBLIC_URL + '/img/avahan.png'} className="img-fluid event-image " alt="None" />
 
                 <LogoCard eventname="" instaid="" fbid="" twitterid="" />

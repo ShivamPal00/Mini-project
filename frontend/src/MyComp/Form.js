@@ -17,12 +17,12 @@ export default function Form() {
     }
 
     return (
-        <div className="color-2 text-light"  >
+        <div className="color-2 text-light pt-5"  >
             <Navbar />
-            <h3 className="text-center my-5">REGISTRATION FORM</h3>
-            <div className='  d-flex justify-content-center  '>
+            <h3 className="text-center ">REGISTRATION FORM</h3>
+            <div className='  d-flex justify-content-center p-5 '>
                 
-                <div className=' form color-4 mb-5 border-radius'>
+                <div className=' form color-4 mb-5 border-radius '>
                     <div className=" ">
                         <label for="exampleFormControlInput1" className="form-label">Email address</label>
                         <input type="email" name="email" className="form-control form-width" value={user.email} onChange={handleInputs} id="exampleFormControlInput1" placeholder="name@example.com" />

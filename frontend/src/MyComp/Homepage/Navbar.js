@@ -5,7 +5,7 @@ import '../../App.css'
 export default function Navbar() {
 
   return (
-    <nav className="navbar navbar-expand-lg Navbar color-1 ">
+    <nav className="navbar fixed-top navbar-expand-lg Navbar color-1 ">
       <div className="container-fluid">
         <Link className="nav-link active  text-light" to="/">HOME</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

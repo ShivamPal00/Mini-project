@@ -15,6 +15,7 @@ export default function Homepage() {
     return (
         <div>
             <Navbar />
+            
             <Carousel/>
             <Cards/>
             
