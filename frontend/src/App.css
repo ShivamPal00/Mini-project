@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  
+    overflow-x: hidden;
   }
+  /* COLOR */
+  .color-1{
+    background-color:#17223B;
+}
+.color-2{
+    background-color: #263859;
+}
+.color-3{
+        background-color: #6B778D;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.color-4{
+    background-color: #FF6768;
+    
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* CARD CLASSES */
+  .Cards {
+    height: 380px;
+    width: 410px;
   }
-  to {
-    transform: rotate(360deg);
+  .Cards img {
+    width: 100%;
+    height: 100%;
   }
+  .color-4-button {
+    text-decoration: none;
+    background-color: #ff6768;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+    height: fit-content;
+  }
+  .color-2-button {
+    text-decoration: none;
+    background-color: #17223b;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+    height: fit-content;
+  }
+  /* CAROUSEL CLASSES */
+  .carousel-img-height {
+    height: 700px;
+  }
+  /* NAVBAR CLASSES */
+  .Navbar {
+    font-family: "Poppins', sans-serif";
+    font-size: 20px;
+    font-weight: 6000;
+    width: 100%;
+    height: 69.5px;
+   
+   
+  }
+  /* LOGO CARDS */
+  .event-description-cards{
+      width: 430px;
+      height: 355px;;
+  }
+  .logo{
+      height: 100px;
+      width: 150px;
+  }
+  .border-radius{
+      border-radius: 30px;
+  }
+  /* SUB-EVENT-CLASSES */
+  .subevents{
+      width: 1060px;
+      padding: 30px ;
+  }
+  .subevents-btn-m{
+     
+          margin-left: 700px ;
+      
+  }
+  /* SCHEDULE */
+  .sr{
+      width: 1060px;
+      height: 500px;
+  }
+    /* FORM */
+    .form{
+      border-style: solid;
+      border-width: 1px;
+      padding: 30px;
+      width: 800px;
+      
+      /* margin-right: 500; */
+  }
+  /* EVENTS */
+  .event-image{
+    height:405px;
+    width: 612px;
 }

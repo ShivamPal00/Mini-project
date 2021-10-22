@@ -1,84 +1,82 @@
 import React from 'react';
-import './style.css';
+import '../App.css';
 
 import Footer from './Homepage/Footer';
 import Navbar from './Homepage/Navbar';
 import { Link } from 'react-router-dom';
 
+import LogoCard from './LogoCard';
+import Schedule from './Schedule';
+import Result from './Result';
 
-export default function Hackathon() {
+
+export default function Hackathon(props) {
     return (
-        <div>
-            <Navbar/>
-        
-        <div className='Events '>
-            <div className="Flex my-5">
-                <img src={process.env.PUBLIC_URL + '/img/hackathon.png'}   class="img-fluid subcards" alt="None" />
 
-                <div className="mx-5 card ">
-                    <h2>ZEAL 2021
-                        MUMBAI LOCAL</h2>
 
-                    <div className='Center' >
-                        <img src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" alt="None" className="logo" />
-                        <span>Facebbok</span><br />
-                        <img src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" alt="None" className="logo" />
-                        <span>Facebbok</span><br />
-                        <img src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" alt="None" className="logo" />
-                        <span>Facebbok</span><br />
-                    </div>
+
+        <div className="color-2 ">
+            <Navbar />
+
+            <div className=' container ' >
+                <div className=" d-flex my-5  justify-content-center   " >
+                    <img src={process.env.PUBLIC_URL + '/img/hackathon.png'} className="img-fluid event-image " alt="None" />
+
+                    <LogoCard eventname="" instaid="" fbid="" twitterid="" />
                 </div>
-            </div>
-            <div>
-            <h2>SUB-EVENTS</h2>
-            <div className='Flex Events2 my-4'>
+                <div className='d-flex justify-content-center'>
+                    <div className='  d-flex subevents my-4  color-4 border-radius'>
 
-                <div >
-                    
-                    <b>VCET HACKATHON RELOADED</b>
-                    <ul>
-                        <li>1-4 Participants per team are allowed.</li>
-                        <li>Entry fee : Rs. 500/- per team.</li>
-                        <li>Event dates : 1st & 2nd October 2021</li>
-                    </ul>
-                </div>
-                <div className=' Button-margin my-5'>
-                <Link to="/form">REGISTER</Link>
-                    {/* <button className='btn btn-primary'>Register</button> */}
-                    </div>
-            </div>
-           
-            <div className='  Center '>
-                    <h2 className='mr-10'> ABOUT VCET HACKATHON</h2>
-                    <div class="Events2">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
-                            nunc in molestie.</p><br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
-                            nunc in molestie.</p><br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
-                            nunc in molestie.</p><br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
-                            nunc in molestie.</p><br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
-                            nunc in molestie.</p><br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
-                            nunc in molestie.</p><br />
+                        <div className="   ">
+
+                            <b>VCET HACKATHON RELOADED</b>
+                            <ul className="text-light">
+                                <li> 1-4 Participants per team are allowed.</li>
+                                <li> Entry fee : Rs. 500/- per team.</li>
+                                <li> Event dates : 1st & 2nd October 2021</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div className='subevents-btn-m  my-5'> <Link className="color-2-button text-center   " to="/form">REGISTER</Link></div>
+
 
                     </div>
                 </div>
-            <div className='Events2 my-5'>
-                <h2 className="Center ">SCHEDULE</h2>
-                <img src="https://www.whatsappimages.in/wp-content/uploads/2021/01/Boys-Feeling-Very-Sad-Images-Pics-Downlaod.jpg" class="img-fluid my-3 Result" alt="None"></img>
+                <div className='  text-center text-light'>
+                        <h2 className=''> ABOUT VCET HACKATHON</h2>
+                        <div class=" color-4 border-radius">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
+                                nunc in molestie.</p><br />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
+                                nunc in molestie.</p><br />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
+                                nunc in molestie.</p><br />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
+                                nunc in molestie.</p><br />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
+                                nunc in molestie.</p><br />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
+                                nunc in molestie.</p><br />
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+                <Schedule />
+                <Result />
+
+
+
             </div>
-            <div className='Events2 my-5'>
-                <h2 className="Center ">RESULT</h2>
-                <img src="https://www.whatsappimages.in/wp-content/uploads/2021/01/Boys-Feeling-Very-Sad-Images-Pics-Downlaod.jpg" class="img-fluid my-3 Result" alt="None"></img>
-            </div>
-            </div>
-           
-            
-        </div>
-        <Footer/>
+            <Footer />
         </div>
     )
 }

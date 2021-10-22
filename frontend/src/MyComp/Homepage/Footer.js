@@ -1,11 +1,11 @@
 import React from 'react';
-
+import '../../App.css';
 
 export default function Footer() {
     return (
         <div>
 
-            <footer className="text-center text-lg-start bg-light text-muted" id='events3'>
+            <footer className="text-center    color-1 text-light" id='contact'>
                 <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                     <div className="me-5 d-none d-lg-block">
                         <span>Get connected with us on social networks:</span>
@@ -96,7 +96,7 @@ export default function Footer() {
                 </section>
                 <div className="text-center p-4 Footer" >
                     © 2021 Copyright:
-                    <a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                    <a className="text-reset fw-bold" href="/">gg</a>
                 </div>
             </footer>
         </div>
