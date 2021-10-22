@@ -14,11 +14,7 @@ const diaryCard = [
     linkURL: "/hdiaries",
     linkName: "HACKATHON-DIARIES",
   },
-  {
-    img: "/img/hackathon.png",
-    linkURL: "/hdiaries",
-    linkName: "HACKATHON-DIARIES",
-  },
+  
 ];
 
 export default diaryCard;
