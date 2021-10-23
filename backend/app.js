@@ -6,7 +6,7 @@ const app = express();
 
 dotenv.config({path:"./config.env"});
 
-require('./backend/conn');
+require('./db/conn');
 
 app.use(express.json());
 
