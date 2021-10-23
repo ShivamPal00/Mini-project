@@ -1,9 +1,9 @@
 const { Router } = require('express');
 const express = require('express');
-const User = require('../backend/model/userSchema');
+const User = require('../model/userSchema');
 const router = express.Router();
 
-require('../backend/conn');
+// require('../models/conn');
 
 
 router.get('/', (req, res) => {
@@ -12,8 +12,8 @@ router.get('/', (req, res) => {
 
 router.post('/register',async (req, res) => {
 
-    const { name, email, phone, event, password } = req.body;
-    if (!name || !email || !phone || !event || !password) {
+    const { name, email, phone } = req.body;
+    if (!name || !email || !phone ) {
         return res.status(422).json({ error: "pls fill the required fields" })
     }
     try{
@@ -24,7 +24,7 @@ router.post('/register',async (req, res) => {
             return res.status(422).json({ error: "email already exists" });
         }
 
-        const user = new User({ name, email, phone, event, password });
+        const user = new User({ name, email, phone  });
 
         await user.save();
 

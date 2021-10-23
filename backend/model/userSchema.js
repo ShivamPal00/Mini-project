@@ -13,14 +13,11 @@ const userSchema = new mongoose.Schema({
         type:Number,
         required:true
     },
-    event :{
-        type:String,
-        required:true
-    },
-    password :{
-        type:String,
-        required:true
-    },
+    date:{
+        type:Date,
+        default:Date.now
+    }
+ 
 
 })
 

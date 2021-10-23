@@ -18,14 +18,14 @@ export default function Hackathon(props) {
         <div className="color-2 ">
             <Navbar />
 
-            <div className=' container ' >
-                <div className=" d-flex my-5  justify-content-center   " >
+            <div className=' container p-5 ' >
+                <div className=" d-flex p-5  justify-content-center   " >
                     <img src={process.env.PUBLIC_URL + '/img/hackathon.png'} className="img-fluid event-image " alt="None" />
 
-                    <LogoCard eventname="" instaid="" fbid="" twitterid="" />
+                    <LogoCard eventname="HACKATHON 2021" instaid="instaid" fbid="fbid" twitterid="twitterid" />
                 </div>
                 <div className='d-flex justify-content-center'>
-                    <div className='  d-flex subevents my-4  color-4 border-radius'>
+                    <div className='  d-flex subevents justify-content-between align-items-center my-4  color-4 border-radius'>
 
                         <div className="   ">
 
@@ -39,14 +39,14 @@ export default function Hackathon(props) {
 
                         </div>
 
-                        <div className='subevents-btn-m  my-5'> <Link className="color-2-button text-center   " to="/form">REGISTER</Link></div>
+                        <div className='  '> <Link className="color-2-button text-center   " to="/form">REGISTER</Link></div>
 
 
                     </div>
                 </div>
-                <div className='  text-center text-light'>
+                <div className='  text-center text-light '>
                         <h2 className=''> ABOUT VCET HACKATHON</h2>
-                        <div class=" color-4 border-radius">
+                        <div className="  my-3 p-5 color-4 border-radius">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper
                                 nunc in molestie.</p><br />
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper

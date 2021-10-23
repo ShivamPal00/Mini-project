@@ -15,22 +15,20 @@ export default function Carousel() {
                     <div className="carousel-item active">
                         <img src={process.env.PUBLIC_URL + '/img/carousel-1.png'} className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h2 className=''>ZEAL 2021</h2>
+                            
                         </div>
                     </div>
                     <div className="carousel-item ">
                         <img src={process.env.PUBLIC_URL + '/img/carousel-2.png'} className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                        <h2 className=''>AVAHAN 2021</h2>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src={process.env.PUBLIC_URL + '/img/carousel-3.png'} className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                        <h2 className='text-dark'>HACKATHON 2021</h2>
                         </div>
                     </div>
                 </div>
