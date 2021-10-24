@@ -8,16 +8,16 @@ export default function SingleCard(props) {
 
   return (
     <div className=" Cards mx-4">
-    <Link to={props.link}>
-      
-      <img className="border-radius " src={props.img} alt="None" />
-    </Link>
-    <div className="mt-3">
-    <Link className="color-4-button" to={props.link}>
-      {props.linkName}
-    </Link>
+      <Link to={props.link}>
+
+        <img className="border-radius " src={props.img} alt="None" />
+      </Link>
+      <div className="mt-3">
+        <Link className="color-4-button" to={props.link}>
+          {props.linkName}
+        </Link>
+      </div>
     </div>
-  </div>
   )
 }
 

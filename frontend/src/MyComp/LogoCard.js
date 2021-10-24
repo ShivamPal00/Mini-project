@@ -14,17 +14,17 @@ export default function LogoCard(props) {
               src="img/Facebook-logo.png"
               alt="None"
             />
-            <h2><a href={props.instaurl} className="d-flex align-items-center text-decoration text-light">{props.insta}</a></h2>
+            <h2><a href={props.fburl} className="d-flex  text-decoration text-light">{props.fb}</a></h2>
             <br />
           </div>
 
           <div className="d-flex ">
             <img
-              className="logo mx-3"
+              className="logo mx-3 "
               src="img/Insta-logo.png"
               alt="None"
             />
-           <h2> <a href={props.fburl} className="d-flex align-items-center text-decoration text-light">{props.fb}</a></h2>
+           <h2> <a href={props.instaurl} className="d-flex align-items-center text-decoration text-light">{props.insta}</a></h2>
             <br />
           </div>
 

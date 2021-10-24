@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="navbar fixed-top navbar-expand-lg Navbar color-1 ">
       <div className="container-fluid">
         <Link className="nav-link active  text-light" to="/">
-          <img className="web-logo"src="/img/LOGO_EZ_PNG.png"></img>
+          <img className="web-logo"src="/img/LOGO_EZ_PNG.png" alt="none"/>
         </Link>
         <button
           className="navbar-toggler"
@@ -23,7 +23,7 @@ export default function Navbar() {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item mx-4">
               <a
-                className="nav-link active text-light"
+                className="nav-link active text-light animated pulse infinite"
                 aria-current="page"
                 id="navbar-events"
                 href="#card-events"

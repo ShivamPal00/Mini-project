@@ -20,7 +20,7 @@ export default function Avahan() {
             <div className=" d-flex p-5  justify-content-center   " >
                 <img src={process.env.PUBLIC_URL + '/img/avahan.png'} className="img-fluid event-image " alt="None" />
 
-                <LogoCard eventname="AVAHAN 2021" insta="VCET AVAHAN" fb="avahan_vcet" linkedin="Vcet Sport Committee"
+                <LogoCard eventname="AVAHAN 2021" insta="avahan_vcet" fb="VCET AVAHAN" linkedin="Vcet Sport Committee"
                 fburl="https://www.instagram.com/avahan_vcet/?hl=en"
                 instaurl="https://www.facebook.com/vidyavardhinicollege/posts/850427498682244"
                 linkedinurl="https://in.linkedin.com/in/vcet-sports-committee-85574b208" />

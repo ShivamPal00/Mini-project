@@ -22,10 +22,10 @@ export default function Hackathon(props) {
                 <div className=" d-flex p-5  justify-content-center   " >
                     <img src={process.env.PUBLIC_URL + '/img/hackathon.png'} className="img-fluid event-image  " alt="None" />
 
-                    <LogoCard eventname="HACKATHON 2021" insta="instaid" fb="fbid" linkedin="twitterid"
-                fburl=""
-                instaurl=""
-                linkedinurl="" />
+                    <LogoCard eventname="HACKATHON 2021" insta="hackathon_vcet" fb="VCET Hackathon" linkedin="vcet-hackathon"
+                fburl="https://www.facebook.com/pages/category/Event/VCET-Hackathon-106415341431963/"
+                instaurl="https://www.instagram.com/hackathon_vcet/?hl=en"
+                linkedinurl="https://in.linkedin.com/in/vcet-hackathon" />
                 </div>
                 <div className='d-flex justify-content-center'>
                     <div className='  d-flex subevents justify-content-between align-items-center my-4  color-4 border-radius'>
