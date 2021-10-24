@@ -17,6 +17,7 @@ import Hackathon from './MyComp/Hackathon';
 import Adairies from './MyComp/Adiaries';
 import Hdairies from './MyComp/Hdiaries';
 import Singing from './MyComp/Singing';
+import Drawing from './MyComp/Drawing';
 
 
 
@@ -49,6 +50,9 @@ function App() {
           </Route>
           <Route  path="/singing">
             <Singing />
+          </Route>
+          <Route  path="/drawing">
+            <Drawing/>
           </Route>
           <Route  path="/form">
             <Form/>

@@ -19,7 +19,8 @@ const SubEventdata =[
         name:"DRAWING",
         form1:"CHARCOAL SKETCHING",
         form2:"MASTER STROKE",
-        form3:"BEST OUT OF WASTE"
+        form3:"BEST OUT OF WASTE",
+        link:"/drawing"
 
     },
     {
