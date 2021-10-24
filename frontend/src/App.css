@@ -81,8 +81,12 @@ body {
   border-width: 1px;
   padding: 30px;
   width: 800px;
+  
 
   /* margin-right: 500; */
+}
+.form-height{
+  height: 100vh;
 }
 /* EVENTS */
 .event-image {

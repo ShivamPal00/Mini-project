@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import SingleCard from "./SingleCard";
+
+import SingleCard from "./SingleCard"
 import eventCard from "./eventCard";
 import diaryCard from "./diaryCard";
 import "../../App.css";
