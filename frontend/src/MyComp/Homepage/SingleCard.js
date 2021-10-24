@@ -12,9 +12,11 @@ export default function SingleCard(props) {
       
       <img className="border-radius " src={props.img} alt="None" />
     </Link>
+    <div className="mt-3">
     <Link className="color-4-button" to={props.link}>
       {props.linkName}
     </Link>
+    </div>
   </div>
   )
 }

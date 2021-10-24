@@ -14,8 +14,8 @@ router.get('/', (req, res) => {
 
 router.post('/register',async (req, res) => {
 
-    const { name, email, phone } = req.body;
-    if (!name || !email || !phone ) {
+    const { name, email, phone, eventname } = req.body;
+    if (!name || !email || !phone || !eventname ) {
         return res.status(422).json({ error: "pls fill the required fields" })
     }
     try{
@@ -26,7 +26,7 @@ router.post('/register',async (req, res) => {
         //     return res.status(422).json({ error: "email already exists" });
         // }
 
-        const user = new User({ name, email, phone  });
+        const user = new User({ name, email, phone, eventname  });
 
         await user.save();
 

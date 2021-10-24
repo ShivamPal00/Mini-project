@@ -20,9 +20,9 @@ export default function Hackathon(props) {
 
             <div className=' container p-5 ' >
                 <div className=" d-flex p-5  justify-content-center   " >
-                    <img src={process.env.PUBLIC_URL + '/img/hackathon.png'} className="img-fluid event-image " alt="None" />
+                    <img src={process.env.PUBLIC_URL + '/img/hackathon.png'} className="img-fluid event-image  " alt="None" />
 
-                    <LogoCard eventname="ZEAL 2021" insta="instaid" fb="fbid" linkedin="twitterid"
+                    <LogoCard eventname="HACKATHON 2021" insta="instaid" fb="fbid" linkedin="twitterid"
                 fburl=""
                 instaurl=""
                 linkedinurl="" />

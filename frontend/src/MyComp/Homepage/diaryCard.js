@@ -10,7 +10,7 @@ const diaryCard = [
     linkName: "AVAHAN-DIARIES",
   },
   {
-    img: "/img/hackathon.png",
+    img: "/img/hdiaries.jpg",
     linkURL: "/hdiaries",
     linkName: "HACKATHON-DIARIES",
   },
