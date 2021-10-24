@@ -18,6 +18,9 @@ import Adairies from './MyComp/Adiaries';
 import Hdairies from './MyComp/Hdiaries';
 import Singing from './MyComp/Singing';
 import Drawing from './MyComp/Drawing';
+import Cricket from './MyComp/Cricket';
+import Badminton from './MyComp/Badminton';
+import Volleyball from './MyComp/Volleyball';
 
 
 
@@ -53,6 +56,15 @@ function App() {
           </Route>
           <Route  path="/drawing">
             <Drawing/>
+          </Route>
+          <Route  path="/cricket">
+            <Cricket/>
+          </Route>
+          <Route  path="/badminton">
+            <Badminton/>
+          </Route>
+          <Route  path="/volleyball">
+            <Volleyball/>
           </Route>
           <Route  path="/form">
             <Form/>

@@ -4,7 +4,7 @@ import Footer from "./Homepage/Footer";
 import Navbar from "./Homepage/Navbar";
 import "../App.css";
 
-export default function Cricket() {
+export default function Badminton() {
     return (
         <div className="color-2 text-center text-light">
       <Navbar />
@@ -12,20 +12,20 @@ export default function Cricket() {
         <div className="d-flex justify-content-center pt-5">
           <img
             className="border-radius drawing-img-size"
-            src={process.env.PUBLIC_URL + "/img/Cricket1.jpg"}
+            src={process.env.PUBLIC_URL + "/img/Badminton4.jpg"}
             alt="None"
           />
 
           <div className=" color-4 mx-5 p-4 border-radius">
             <h2> DESCRIPTION</h2>
             <span>
-              Cricket
+              BADMINTON
               <br/>              
-              1] BOX CRICKET
+              1] SOLO
               <br/> 
-              2] OVERARM CRICKET
+              2] DUO
               <br/> 
-              3] DEPARTMENTAL CRICKET
+              3] DEPARTMENTAL
             </span>
             <br />
             <br />
@@ -81,21 +81,21 @@ export default function Cricket() {
           <div className="d-flex justify-content-center  p-5">
             <div className=" border-radius ">
               <img
-                src={process.env.PUBLIC_URL + "/img/avahan.jpeg"}
+                src={process.env.PUBLIC_URL + "/img/badminton1.jpg"}
                 className="border-radius  Cards card-img-top"
                 alt="None"
               />
             </div>
             <div className="border-radius    ">
               <img
-                src={process.env.PUBLIC_URL + "/img/adiaries.jpeg"}
+                src={process.env.PUBLIC_URL + "/img/badminton2.jpg"}
                 className="border-radius mx-5 Cards card-img-top"
                 alt="None"
               />
             </div>
             <div className="border-radius ">
               <img
-                src={process.env.PUBLIC_URL + "/img/ad-carousel-1.jpeg"}
+                src={process.env.PUBLIC_URL + "/img/badminton3.jpg"}
                 className="border-radius  Cards card-img-top"
                 alt="None"
               />
