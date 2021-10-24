@@ -2,8 +2,7 @@ const { Router } = require('express');
 const express = require('express');
 const User = require('../model/userSchema');
 const router = express.Router();
-const sgMail = require('@sendgrid/mail')
-    sgMail.setApiKey('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')
+
 
 // require('../models/conn');
 
