@@ -17,7 +17,10 @@ export default function Homepage() {
             <Navbar />
             <Carousel carousel1 = "/img/carousel-1.png"
                     carousel2 = "/img/carousel-2.png"
-                    carousel3 ="/img/carousel-3.png"/>
+                    carousel3 ="/img/carousel-3.png"
+                    eventname1="ZEAL"
+                    eventname2="AVAHAN"
+                    eventname3="HACKATHON"/>
             <Cards/>
             
             <Footer/>

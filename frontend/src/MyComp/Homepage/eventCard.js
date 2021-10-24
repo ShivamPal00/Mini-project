@@ -1,16 +1,16 @@
 const eventCard = [
   {
-    img: "/img/zeal.png",
+    img: "/img/zeal.jpeg",
     linkURL: "/zeal",
     linkName: "ZEAL",
   },
   {
-    img: "/img/avahan.png",
+    img: "/img/avahan.jpeg",
     linkURL: "/avahan",
     linkName: "AVAHAN",
   },
   {
-    img: "/img/hackathon.png",
+    img: "/img/hackathon.jpg",
     linkURL: "/hackathon",
     linkName: "HACKATHON",
   },

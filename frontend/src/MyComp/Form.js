@@ -5,6 +5,7 @@ import Spinner from "./Spinner";
 export default function Form() {
   const [user, setUser] = useState({
     name: "",
+    eventname: "",
     email: "",
     phone: "",
   });
@@ -20,7 +21,7 @@ export default function Form() {
 
   const PostData = async (e) => {
     e.preventDefault();
-    const { name, email, phone } = user;
+    const { name, email, phone, eventname } = user;
 
     const res = await fetch("/register", {
       method: "POST",
@@ -28,7 +29,7 @@ export default function Form() {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        name, email, phone
+        name, email, phone, eventname
       })
     });
 
@@ -81,6 +82,20 @@ export default function Form() {
                 onChange={handleInputs}
                 id="exampleFormControlInput1"
                 placeholder="Name"
+              />
+            </div>
+            <div className="">
+              <label htmlFor="exampleFormControlInput1" className="form-label">
+                Event-Name
+              </label>
+              <input
+                type="text"
+                name="eventname"
+                className="form-control"
+                value={user.eventname}
+                onChange={handleInputs}
+                id="exampleFormControlInput1"
+                placeholder="Event-Name"
               />
             </div>
             <div className="">

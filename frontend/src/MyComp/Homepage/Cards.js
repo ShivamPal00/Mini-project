@@ -25,7 +25,7 @@ export default function Cards() {
       </div>
       <div className="color-2  text-center   p-5 " id="card-diaries">
         <h2 className="text-light  "> DIARIES</h2>
-        <div className="  d-flex justify-content-center  ">
+        <div className="  d-flex justify-content-center mt-4 mb-3 ">
           {/* Creates 3 diaries cards */}
           {diaryCard.map((card) => {
             return (

@@ -15,20 +15,20 @@ export default function Carousel(props) {
                     <div className="carousel-item active">
                         <img src={props.carousel1} className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
-                            <h2 className=''>ZEAL 2021</h2>
+                            <h2 className=''>{props.eventname1}</h2>
                             
                         </div>
                     </div>
                     <div className="carousel-item ">
                         <img src={props.carousel2}  className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
-                        <h2 className=''>AVAHAN 2021</h2>
+                        <h2 className=''>{props.eventname2}</h2>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src={props.carousel3} className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
-                        <h2 className='text-dark'>HACKATHON 2021</h2>
+                        <h2 className='text-dark'>{props.eventname3}</h2>
                         </div>
                     </div>
                 </div>

@@ -8,9 +8,9 @@ export default function Hdairies() {
     return (
         <div>
             <Navbar/>
-            <Carousel carousel1 = "/img/carousel-1.png"
-                    carousel2 = "/img/carousel-2.png"
-                    carousel3 ="/img/carousel-3.png"/>
+            <Carousel carousel1 = "/img/hd-carousel-1.jpg"
+                    carousel2 = "/img/hd-carousel-2.jpg"
+                    carousel3 ="/img/hd-carousel-3.jpg"/>
             <Footer/>
 
         </div>
