@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="navbar fixed-top navbar-expand-lg Navbar color-1 ">
       <div className="container-fluid">
         <Link className="nav-link active  text-light" to="/">
-          HOME
+          <img className="web-logo"src="/img/LOGO_EZ_PNG.png"></img>
         </Link>
         <button
           className="navbar-toggler"

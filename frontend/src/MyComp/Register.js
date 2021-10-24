@@ -74,25 +74,25 @@ export default function Register() {
         <div className=" my-5">
           <h2>MORE FROM THIS EVENT</h2>
 
-          <div className="d-flex justify-content-center border-radius">
-            <div className="       ">
+          <div className="d-flex justify-content-center  p-5">
+            <div className=" border-radius ">
               <img
-                src={process.env.PUBLIC_URL + "/img/zeal.png"}
-                className=" card-img-top"
+                src={process.env.PUBLIC_URL + "/img/Dance1.jpeg"}
+                className="border-radius  Cards card-img-top"
                 alt="None"
               />
             </div>
-            <div className="    ">
+            <div className="border-radius    ">
               <img
-                src={process.env.PUBLIC_URL + "/img/zeal.png"}
-                className="card-img-top"
+                src={process.env.PUBLIC_URL + "/img/Dance2.jpeg"}
+                className="border-radius mx-5 Cards card-img-top"
                 alt="None"
               />
             </div>
-            <div className=" ">
+            <div className="border-radius ">
               <img
-                src={process.env.PUBLIC_URL + "/img/zeal.png"}
-                className="card-img-top"
+                src={process.env.PUBLIC_URL + "/img/Dance3.jpeg"}
+                className="border-radius  Cards card-img-top"
                 alt="None"
               />
             </div>

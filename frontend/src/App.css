@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
  
 }
+.web-logo{
+  height: 100px;
+  width: 100px;
+}
 /* COLOR */
 .color-1 {
   background-color: #17223b;
@@ -18,7 +22,7 @@ body {
 
 /* CARD CLASSES */
 .Cards {
-  height: 380px;
+  height: 350px;
   width: 410px;
 }
 .Cards img {

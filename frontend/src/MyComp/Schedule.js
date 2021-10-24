@@ -8,7 +8,7 @@ export default function Schedule() {
                 
              <div className='   text-light d-flex my-3 justify-content-center  '>
                         
-                        <img src="https://www.whatsappimages.in/wp-content/uploads/2021/01/Boys-Feeling-Very-Sad-Images-Pics-Downlaod.jpg" class="img-fluid  border-radius sr" alt="None"></img>
+                        <img src="/img/Schedule.jpeg" class="img-fluid  border-radius sr" alt="None"></img>
                    
         </div>
         </div>
