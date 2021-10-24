@@ -23,7 +23,10 @@ export default function Zeal() {
             alt="None"
           />
 
-          <LogoCard eventname="ZEAL 2021" instaid="instaid" fbid="fbid" twitterid="twitterid" />
+          <LogoCard eventname="ZEAL 2021" insta="insta-id" fb="fb-id" linkedin="linkedin-id"
+                fburl="https://www.facebook.com/vcetstudentscouncil/"
+                instaurl="https://z-p42.www.instagram.com/zeal2021_/?hl=am-et"
+                linkedinurl="https://in.linkedin.com/company/vcet-students-council" />
         </div>
 
         <h2 className="text-light text-center ">SUB-EVENTS</h2>

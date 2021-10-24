@@ -1,6 +1,6 @@
 const diaryCard = [
   {
-    img: "/img/zeal.png",
+    img: "/img/zdiaries.jpeg",
     linkURL: "/zdiaries",
     linkName: "ZEAL-DIARIES",
   },
