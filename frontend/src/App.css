@@ -100,6 +100,9 @@ body {
 }
 
  /* Drawing  */
- .sub-event-container {
-   width: 720px;
+ .drawing-img-size {
+   width: 1060px;
+ }
+ .text-decoration{
+   text-decoration: none;
  }

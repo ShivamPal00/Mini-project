@@ -8,10 +8,10 @@ export default function Drawing() {
     return (
         <div className="color-2 text-center text-light">
       <Navbar />
-      <div className=" sub-event-container container pt-5">
+      <div className="  container pt-5">
         <div className="d-flex justify-content-center pt-5">
           <img
-            className="border-radius "
+            className="border-radius drawing-img-size"
             src={process.env.PUBLIC_URL + "/img/Drawing.jpeg"}
             alt="None"
           />
