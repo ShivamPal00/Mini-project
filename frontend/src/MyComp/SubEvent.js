@@ -17,7 +17,7 @@ export default function SubEvent(props) {
 
         <div>
           {" "}
-          <Link className="color-2-button text-center" to="/register">
+          <Link className="color-2-button text-center" to={props.link}>
             REGISTER
           </Link>
         </div>

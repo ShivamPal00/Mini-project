@@ -16,6 +16,7 @@ import Avahan from './MyComp/Avahan';
 import Hackathon from './MyComp/Hackathon';
 import Adairies from './MyComp/Adiaries';
 import Hdairies from './MyComp/Hdiaries';
+import Singing from './MyComp/Singing';
 
 
 
@@ -45,6 +46,9 @@ function App() {
           </Route>
           <Route  path="/register">
             <Register />
+          </Route>
+          <Route  path="/singing">
+            <Singing />
           </Route>
           <Route  path="/form">
             <Form/>

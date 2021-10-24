@@ -35,6 +35,7 @@ export default function Zeal() {
               form1={data.form1}
               form2={data.form2}
               form3={data.form3}
+              link={data.link}
              
               />
               </div>
