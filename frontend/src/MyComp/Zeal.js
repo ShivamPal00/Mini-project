@@ -8,6 +8,7 @@ import SubEvent from "./SubEvent";
 import LogoCard from "./LogoCard";
 import Schedule from "./Schedule";
 import Result from "./Result";
+import SubEventdata from "./SubEventdata";
 
 export default function Zeal() {
   return (
@@ -26,33 +27,21 @@ export default function Zeal() {
         </div>
 
         <h2 className="text-light text-center ">SUB-EVENTS</h2>
+        {SubEventdata.map((data) => {
+            return (
+              <div className=" d-flex justify-content-center    ">
+              <SubEvent
+              eventname={data.name}
+              form1={data.form1}
+              form2={data.form2}
+              form3={data.form3}
+             
+              />
+              </div>
+            );
+          })}
 
-        <div className=" d-flex justify-content-center    ">
-          <SubEvent
-            eventname="DANCE"
-            form1="SOLO-DANCE"
-            form2="DUET-DANCE"
-            form3="GROUP-DANCE"
-          />{" "}
-        </div>
-        <div className=" d-flex justify-content-center    ">
-          {" "}
-          <SubEvent
-            eventname="SINGING"
-            form1="SOLO-SINGING"
-            form2="DUET-SINGING"
-            form3="GROUP-SINGING"
-          />
-        </div>
-        <div className=" d-flex justify-content-center    ">
-          {" "}
-          <SubEvent
-            eventname="DANCE"
-            form1="SOLO-DANCE"
-            form2="DUET-DANCE"
-            form3="GROUP-DANCE"
-          />
-        </div>
+      
 
         <Schedule />
         <Result />

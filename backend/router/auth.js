@@ -2,6 +2,8 @@ const { Router } = require('express');
 const express = require('express');
 const User = require('../model/userSchema');
 const router = express.Router();
+const sgMail = require('@sendgrid/mail')
+    sgMail.setApiKey('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')
 
 // require('../models/conn');
 
@@ -20,9 +22,9 @@ router.post('/register',async (req, res) => {
 
         const userExist = await User.findOne({ email: email })
 
-        if (userExist) {
-            return res.status(422).json({ error: "email already exists" });
-        }
+        // if (userExist) {
+        //     return res.status(422).json({ error: "email already exists" });
+        // }
 
         const user = new User({ name, email, phone  });
 
@@ -41,7 +43,25 @@ router.post('/register',async (req, res) => {
         console.log(err);
     }
 
-
+    
+    // const msg = {
+    //   to: `${email}`, // Change to your recipient
+    //   from: 'pals55002@gmail.com', // Change to your verified sender
+    //   subject: 'Bed Booking Approved',
+    //   text: `Your booking request has been approved by the ${hospital_name}`,
+    //   html: `<strong>${user_name} Your Bed booking request has been approved by the ${hospital_name}</strong>`,
+    // }
+  
+  
+    // sgMail
+    //   .send(msg)
+    //   .then((response) => {
+    //     console.log(response[0].statusCode)
+    //     console.log(response[0].headers)
+    //   })
+    //   .catch((error) => {
+    //     console.error(error)
+    //   })
 
 
 });
