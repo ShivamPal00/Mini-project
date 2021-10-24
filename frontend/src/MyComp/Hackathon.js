@@ -22,7 +22,10 @@ export default function Hackathon(props) {
                 <div className=" d-flex p-5  justify-content-center   " >
                     <img src={process.env.PUBLIC_URL + '/img/hackathon.png'} className="img-fluid event-image " alt="None" />
 
-                    <LogoCard eventname="HACKATHON 2021" instaid="instaid" fbid="fbid" twitterid="twitterid" />
+                    <LogoCard eventname="ZEAL 2021" insta="instaid" fb="fbid" linkedin="twitterid"
+                fburl=""
+                instaurl=""
+                linkedinurl="" />
                 </div>
                 <div className='d-flex justify-content-center'>
                     <div className='  d-flex subevents justify-content-between align-items-center my-4  color-4 border-radius'>

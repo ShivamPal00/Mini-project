@@ -19,7 +19,10 @@ export default function Avahan() {
             <div className=" d-flex p-5  justify-content-center   " >
                 <img src={process.env.PUBLIC_URL + '/img/avahan.png'} className="img-fluid event-image " alt="None" />
 
-                <LogoCard eventname="AVAHAN 2021" instaid="instaid" fbid="fbid" twitterid="twitterid" />
+                <LogoCard eventname="AVAHAN 2021" insta="instaid" fb="fbid" linkedin="twitterid"
+                fburl=""
+                instaurl=""
+                linkedinurl="" />
             </div>
 
             <h2 className="text-light text-center ">SUB-EVENTS</h2>
