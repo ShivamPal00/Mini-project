@@ -8,6 +8,7 @@ import SubEvent from './SubEvent';
 import LogoCard from './LogoCard';
 import Schedule from './Schedule';
 import Result from './Result';
+import SubEventdata2 from './SubEventdata2';
 
 
 export default function Avahan() {
@@ -19,18 +20,28 @@ export default function Avahan() {
             <div className=" d-flex p-5  justify-content-center   " >
                 <img src={process.env.PUBLIC_URL + '/img/avahan.png'} className="img-fluid event-image " alt="None" />
 
-                <LogoCard eventname="AVAHAN 2021" insta="instaid" fb="fbid" linkedin="twitterid"
-                fburl=""
-                instaurl=""
-                linkedinurl="" />
+                <LogoCard eventname="AVAHAN 2021" insta="VCET AVAHAN" fb="avahan_vcet" linkedin="Vcet Sport Committee"
+                fburl="https://www.instagram.com/avahan_vcet/?hl=en"
+                instaurl="https://www.facebook.com/vidyavardhinicollege/posts/850427498682244"
+                linkedinurl="https://in.linkedin.com/in/vcet-sports-committee-85574b208" />
             </div>
 
             <h2 className="text-light text-center ">SUB-EVENTS</h2>
             
-            <div className=" d-flex justify-content-center    " >
-                <SubEvent eventname="DANCE" form1="SOLO-DANCE" form2="DUET-DANCE" form3="GROUP-DANCE" /> </div>
-            <div className=" d-flex justify-content-center    " > <SubEvent eventname="SINGING" form1="SOLO-SINGING" form2="DUET-SINGING" form3="GROUP-SINGING" /></div>
-            <div className=" d-flex justify-content-center    " >  <SubEvent eventname="DANCE" form1="SOLO-DANCE" form2="DUET-DANCE" form3="GROUP-DANCE" /></div>
+            {SubEventdata2.map((data) => {
+            return (
+              <div className=" d-flex justify-content-center    ">
+              <SubEvent
+              eventname={data.name}
+              form1={data.form1}
+              form2={data.form2}
+              form3={data.form3}
+              link={data.link}
+             
+              />
+              </div>
+            );
+          })}
 
 
 

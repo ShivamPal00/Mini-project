@@ -10,7 +10,7 @@ export default function Cards() {
     <div className=" ">
       <div className="color-2 text-center p-5 " id="card-events">
         <h2 className="text-light  "> EVENTS</h2>
-        <div className="  d-flex justify-content-center  ">
+        <div className="  d-flex justify-content-center mt-4 mb-3 ">
           {/* Creates 3 event cards */}
           {eventCard.map((card) => {
             return (

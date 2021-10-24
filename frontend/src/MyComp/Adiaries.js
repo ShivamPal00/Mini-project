@@ -8,9 +8,9 @@ export default function Adairies() {
     return (
         <div>
             <Navbar/>
-            <Carousel carousel1 = "/img/carousel-1.png"
+            <Carousel carousel1 = "/img/ad-carousel-1.jpeg"
                     carousel2 = "/img/ad-carousel-2.jpg"
-                    carousel3 ="/img/carousel-3.png"/>
+                    carousel3 ="/img/ad-carousel-3.jpeg"/>
             <Footer/>
 
         </div>
