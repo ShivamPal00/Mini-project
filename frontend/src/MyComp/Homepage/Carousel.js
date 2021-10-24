@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 // import logo from './Images/logo.png';
 
-export default function Carousel() {
+export default function Carousel(props) {
     return (
         <div>
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -13,20 +13,20 @@ export default function Carousel() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={process.env.PUBLIC_URL + '/img/carousel-1.png'} className="d-block w-100 carousel-img-height" alt="None" />
+                        <img src={props.carousel1} className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
                             <h2 className=''>ZEAL 2021</h2>
                             
                         </div>
                     </div>
                     <div className="carousel-item ">
-                        <img src={process.env.PUBLIC_URL + '/img/carousel-2.png'} className="d-block w-100 carousel-img-height" alt="None" />
+                        <img src={props.carousel2}  className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
                         <h2 className=''>AVAHAN 2021</h2>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={process.env.PUBLIC_URL + '/img/carousel-3.png'} className="d-block w-100 carousel-img-height" alt="None" />
+                        <img src={props.carousel3} className="d-block w-100 carousel-img-height" alt="None" />
                         <div className="carousel-caption d-none d-md-block">
                         <h2 className='text-dark'>HACKATHON 2021</h2>
                         </div>

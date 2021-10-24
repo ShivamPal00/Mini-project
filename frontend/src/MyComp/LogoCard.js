@@ -11,30 +11,31 @@ export default function LogoCard(props) {
           <div className=" d-flex ">
             <img
               className="logo "
-              src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"
+              src="img/Facebook-logo.png"
               alt="None"
             />
-            <h4 className="d-flex align-items-center">{props.fbid}</h4>
+            <h2><a href={props.instaurl} className="d-flex align-items-center text-decoration text-light">{props.insta}</a></h2>
             <br />
           </div>
 
           <div className="d-flex ">
             <img
-              className="logo"
-              src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"
+              className="logo mx-3"
+              src="img/Insta-logo.png"
               alt="None"
             />
-            <h4 className="d-flex align-items-center">{props.instaid}</h4>
+           <h2> <a href={props.fburl} className="d-flex align-items-center text-decoration text-light">{props.fb}</a></h2>
             <br />
           </div>
 
           <div className="d-flex ">
             <img
-              className="logo"
-              src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"
+              className="logo mx-3"
+             
+              src="img/linkedin-logo.png"
               alt="None"
             />
-            <h4 className="d-flex align-items-center">{props.twitterid}</h4>
+           <h2> <a href={props.linkedinurl} className="d-flex align-items-center text-decoration text-light">{props.linkedin}</a></h2>
             <br />
           </div>
         </div>

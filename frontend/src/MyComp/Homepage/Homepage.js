@@ -15,7 +15,9 @@ export default function Homepage() {
     return (
         <div>
             <Navbar />
-            <Carousel/>
+            <Carousel carousel1 = "/img/carousel-1.png"
+                    carousel2 = "/img/carousel-2.png"
+                    carousel3 ="/img/carousel-3.png"/>
             <Cards/>
             
             <Footer/>
