@@ -4,28 +4,28 @@ import Footer from "./Homepage/Footer";
 import Navbar from "./Homepage/Navbar";
 import "../App.css";
 
-export default function Singing() {
+export default function Drawing() {
     return (
         <div className="color-2 text-center text-light">
       <Navbar />
-      <div className="container pt-5">
+      <div className=" sub-event-container container pt-5">
         <div className="d-flex justify-content-center pt-5">
           <img
             className="border-radius "
-            src={process.env.PUBLIC_URL + "/img/Singing.jpeg"}
+            src={process.env.PUBLIC_URL + "/img/Drawing.jpeg"}
             alt="None"
           />
 
           <div className=" color-4 mx-5 p-4 border-radius">
             <h2> DESCRIPTION</h2>
             <span>
-              There are three ways you can particpate in Singing Compeition.
+              There are three ways you can particpate in Drawing Compeition.
               <br/>              
-              1] Solo-Singing
+              1] CHARCOAL SKETCHING
               <br/> 
-              2] Duet-Singing
+              2] MASTER STROKE
               <br/> 
-              3] Group-Singing
+              3] BEST OUT OF WASTE
             </span>
             <br />
             <br />
@@ -81,14 +81,14 @@ export default function Singing() {
           <div className="d-flex justify-content-center  p-5">
             <div className=" border-radius ">
               <img
-                src={process.env.PUBLIC_URL + "/img/Singing2.jpeg"}
+                src={process.env.PUBLIC_URL + "/img/Poster.jpeg"}
                 className="border-radius  Cards card-img-top"
                 alt="None"
               />
             </div>
             <div className="border-radius    ">
               <img
-                src={process.env.PUBLIC_URL + "/img/Singing3.jpeg"}
+                src={process.env.PUBLIC_URL + "/img/Charcoal.jpeg"}
                 className="border-radius mx-5 Cards card-img-top"
                 alt="None"
               />

@@ -98,3 +98,8 @@ body {
 .zeal-title {
   font-size: 65px !important;
 }
+
+ /* Drawing  */
+ .sub-event-container {
+   width: 720px;
+ }
