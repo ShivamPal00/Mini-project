@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Homepage/Navbar";
 import "../App.css";
-import Spinner from "./Spinner";
+
 export default function Form() {
   const [user, setUser] = useState({
     name: "",
@@ -34,6 +34,7 @@ export default function Form() {
     });
 
     const data = await res.json();
+    
 
     if (data.status === 422 || !data) {
       window.alert("invalid Registration");
@@ -116,7 +117,7 @@ export default function Form() {
               <input type="submit" className="color-2-button" value="submit" onClick={PostData} />
             </div>
           </form>
-          <Spinner />
+       
         </div>
       </div>
     </div>

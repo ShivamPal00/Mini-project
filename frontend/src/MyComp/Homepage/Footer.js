@@ -50,16 +50,16 @@ export default function Footer() {
                                     Products
                                 </h6>
                                 <p>
-                                    <a href="/" className="text-reset">Angular</a>
+                                    <a href="/" className="text-reset">Mongodb</a>
                                 </p>
                                 <p>
                                     <a href="/" className="text-reset">React</a>
                                 </p>
                                 <p>
-                                    <a href="/" className="text-reset">Vue</a>
+                                    <a href="/" className="text-reset">Express</a>
                                 </p>
                                 <p>
-                                    <a href="/" className="text-reset">Laravel</a>
+                                    <a href="/" className="text-reset">Node.js</a>
                                 </p>
                             </div>
                             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -67,13 +67,13 @@ export default function Footer() {
                                     Useful links
                                 </h6>
                                 <p>
-                                    <a href="/" className="text-reset">Pricing</a>
+                                    {/* <a href="/" className="text-reset">Pricing</a> */}
                                 </p>
                                 <p>
                                     <a href="/" className="text-reset">Settings</a>
                                 </p>
                                 <p>
-                                    <a href="/" className="text-reset">Orders</a>
+                                    {/* <a href="/" className="text-reset">Orders</a> */}
                                 </p>
                                 <p>
                                     <a href="/" className="text-reset">Help</a>
@@ -96,7 +96,7 @@ export default function Footer() {
                 </section>
                 <div className="text-center p-4 Footer" >
                     © 2021 Copyright:
-                    <a className="text-reset fw-bold" href="/">gg</a>
+                    <a className="text-reset fw-bold" href="/">EZ</a>
                 </div>
             </footer>
         </div>
