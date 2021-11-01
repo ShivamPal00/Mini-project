@@ -8,7 +8,7 @@ export default function Footer() {
             <footer className="text-center    color-1 text-light" id='contact'>
                 <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                     <div className="me-5 d-none d-lg-block">
-                        <span>Get connected with us on social networks:</span>
+                        <span>GET CONNECTED WITH US:</span>
                     </div>
 
                     <div>
@@ -38,7 +38,7 @@ export default function Footer() {
                         <div className="row mt-3">
                             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                                 <h6 className="text-uppercase fw-bold mb-4">
-                                    <i className="fas fa-gem me-3"></i>Company name
+                                    <i className="fas fa-gem me-3"></i> EZ EVENTS.PVT LTD
                                 </h6>
                                 <p>
                                     Here you can use rows and columns to organize your footer content. Lorem ipsum
